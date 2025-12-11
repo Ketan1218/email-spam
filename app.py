@@ -35,7 +35,7 @@ def transform_text(text):
 # Streamlit UI
 st.title("Email / SMS Spam Classifier")
 
-input_sms = st.text_input("Enter the message")
+input_sms = st.text_area("Enter the message")
 
 if st.button("Predict"):
     # 1. Preprocess
